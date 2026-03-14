@@ -60,14 +60,14 @@ p::selection{
   --sample-boxshadow: 3px 3px 10px 7px rgba(5, 209, 250, 0.5);
 }
 
-:root.light_mode{
+:root .light_mode{
   --white: white;
   background: #000119;
   --bg-gradient:  conic-gradient(from 315deg, #000119, #000119)
   
 }
 
-:root.dark_mode{
+:root .dark_mode{
   --black: black;
   background: white;
 }
