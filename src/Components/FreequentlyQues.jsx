@@ -4,7 +4,7 @@ import AskQuestion from "./AskQuestion";
 import { motion } from "framer-motion";
 import { container, textAnimate } from "./Animation";
 const FreequentlyQues = () => {
-  const [data, setData] = useState(freequentlyAskQuestion);
+  const [data] = useState(freequentlyAskQuestion);
   return (
     <div className="freeAskQues_area">
       <div className="freeAskQues_box">

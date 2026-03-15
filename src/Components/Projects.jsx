@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { container, textAnimate } from "./Animation";
 
 const Projects = () => {
-  let [getDatas, setDatas] = useState(ProjectsApi);
+  let [getDatas] = useState(ProjectsApi);
   return (
     <section className="projects_area">
       <motion.h1
